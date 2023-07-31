@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>Birth year</title>
+    </head>
+    <body>
+        Get the birth year by using NIC number
+        <script>
+           function getBirthYearFromNIC()
+           {
+    const nicNumber = prompt("Enter the student's NIC number:");
+  
+  // Extract the birth year from the NIC number (first 4 digits)
+  const birthYear = nicNumber.substring(0, 4);
+
+  alert(`Year of Birth: ${birthYear}`);
+}
+getBirthYearFromNIC();
+        </script>
+    </body>
+</html>
